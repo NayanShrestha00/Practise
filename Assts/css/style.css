@@ -1,0 +1,347 @@
+body{
+    background-color: rgb(33,32,31);
+    color: #ffffff;
+    
+    font-family: 'Poppins', sans-serif;
+}
+main{
+      /* Width is used to define how much space is taken by the content*/
+      width: 70rem;
+    /* margin left and right auto is used to define auto gap or auto spacing*/
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Header Start */
+header{
+    /* flex will display the content in one line and space-between will gives space between two div*/
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: rgb(63,137,5);
+}
+.nav nav{
+    display: flex;
+}
+li{
+    /* list style none will remove all the syle of that that list like numbers bullets etc*/
+    list-style: none;
+    padding: 12px;
+    padding: 1.1rem;
+}
+.nav a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffffff;
+    /* text decoration none will change the anchor text to the normal form*/
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: rgb(63,137,5);
+}
+/*header stop*/
+/* Top page */
+.gap{
+    display: flex;
+    justify-content: space-between;
+}
+.first h1{
+    font-size: 70px;
+    margin: 113px 0 20px 0;
+}
+.text{
+    width: 440px;
+}
+.firstimg img{
+    width: 350px;
+    
+}
+.skill{
+    font-size: 19px;
+    word-spacing: 20px;
+}
+p {
+    opacity: 30%;
+}
+.first button{
+    padding: 15px;
+    background-color: rgb(63,137,5);
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+}
+.first button:hover{
+    background: rgb(92, 88, 85);
+}
+/*Top page end*/
+hr{
+    margin: 50px 0 120px 0;
+}
+/*second page start*/
+.written{
+    width: 545px;
+}
+h2{
+    font-size: 50px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.content .one{
+    background-color: rgb(45,44,42);
+    padding: 25px;
+    display: flex;
+    font-size: 14px;
+    height: 40%;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.one h4{
+    font-size: 25px;
+    margin: 0;
+    opacity: 80%;
+}
+.content img{
+    width: 78px;
+    padding: 0 20px 0 0;
+}
+.content .two{
+    background-color: rgb(45,44,42);
+    padding: 25px;
+    display: flex;
+    font-size: 14px;
+    height: 40%;
+    border-radius: 25px;
+}
+.two h4{
+    font-size: 25px;
+    margin: 0;
+    opacity: 80%;
+}
+.content .three{
+    background-color: rgb(45,44,42);
+    padding: 25px;
+    display: flex;
+    font-size: 14px;
+    height: 40%;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.three h4{
+    font-size: 25px;
+    margin: 0;
+    opacity: 80%;
+}
+.content .four{
+    background-color: rgb(45,44,42);
+    padding: 25px;
+    display: flex;
+    font-size: 14px;
+    height: 40%;
+    border-radius: 25px;
+}
+.four h4{
+    font-size: 25px;
+    margin: 0;
+    opacity: 80%;
+}
+.content .five{
+    background-color: rgb(45,44,42);
+    padding: 25px;
+    display: flex;
+    font-size: 14px;
+    height: 40%;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.five h4{
+    font-size: 25px;
+    margin: 0;
+    opacity: 80%;
+}
+.content .six{
+    background-color: rgb(45,44,42);
+    padding: 25px;
+    display: flex;
+    font-size: 14px;
+    height: 40%;
+    border-radius: 25px;
+    margin-bottom: 55px;
+}
+.six h4{
+    font-size: 25px;
+    margin: 0;
+    opacity: 80%;
+}
+/* Second page end */
+/* Third page start */
+.Third p{
+    width: 545px;
+}
+.Third img{
+    width: 370px;
+    margin: 60px 0 40 0;
+}
+/* Third page stop */
+/*Fourth page start */
+.fourth p{
+    width: 545px;
+}
+.ptag{
+    margin: 0 0 50px 0;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+}
+.rebox{
+    background: rgb(45,44,42);
+    padding: 5px 30px;
+    margin: 0 20px 20px 0;
+    border-radius: 15px;
+
+}
+.rebox h6{
+    font-size: 13px;
+    opacity: 75%;
+}
+.rm{
+    display: flex;
+}
+.pp  img{
+    width: 110px;
+    margin-right: 13px;
+}
+/*Fourth page end */
+/*Fifth page start*/
+.ftop p{
+    width: 545px;
+}
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+.obox{
+    background: #000;
+    padding: 30px;
+    width: 355px;
+}
+.obox h3{
+    font-size: 40px;
+    margin: 0;
+}
+.obox button{
+    font-size: 20px;
+    padding: 15px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid rgb(63,137,5);
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+}
+.f_body{
+    display: flex;
+}
+.f_box{
+    background: rgb(19,18,18);
+    border-radius: 9px;
+    padding: 30px;
+    width: 350px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+.f_text h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.f_text h4{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.f_feture{
+    display: flex;
+}
+.f_body button{
+    padding: 15px;
+    margin: 0 0 35px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(63,137,5);
+    background: transparent;
+    color: #fff;
+    width: 50%;
+}
+.f_body button:hover{
+    background: rgb(63,137,5);
+}
+.f_pic img{
+    width:30%;
+}
+.f_detials{
+    position: relative;
+    right: 50px;
+    bottom: 29px;
+    font-size: 22px;
+}
+.f_body .f_box .mone{
+    padding: 15px;
+    margin: 0 0 35px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(63,137,5);
+    background: rgb(63,137,5);
+    color: #fff;
+    width: 50%;
+}
+/*Fifth page stop */
+/* Sixth page start */
+.contact .c_head p{
+    width: 520px;
+}
+.contact .c_body input, textarea{
+    width: 95%;
+    margin: 10px 0;
+    font-size: 20px;
+    border: 1px solid rgb(131,120,99);
+    color: white;
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contact .c_body button{
+    padding: 18px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(63,137,5);
+    color: #fff;
+    width: 15%;
+}
+.contact .c_body button:hover{
+    background: rgb(92, 88, 85);;
+}
+/* Sixth page end */
+/* Footer start */
+.last{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(45,44,42);
+    width: 100%;
+    margin-top: 3%;
+}
+.fl_left{
+    position: relative;
+    left: 5%;
+}
+.fl_right{
+    word-spacing: 18px;
+    position: relative;
+    right: 5%;
+}
+.last p{
+    opacity: 100%;
+}
+/*Footer end*/
